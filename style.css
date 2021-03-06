@@ -1,0 +1,43 @@
+html{
+    background-color:cornflowerblue;
+}
+#container{
+    height: 400px;
+    width:950px;
+    background-color:skyblue;
+    position: absolute;
+    left: 280px;
+    top:160px;
+}
+#container1{
+    height: 500px;
+    width:450px;
+    background-color:white;
+    position: absolute;
+    left: 340px;
+    top:100px;
+}
+#signup{
+    color:blue;
+    text-align:center;
+    text-decoration:overline;
+    text-shadow: 2px 2px black;
+}
+#button{
+    position: absolute;
+    top: 400px;
+    left:26px;
+    width: 400px;
+}
+#loginpage{
+    position: absolute;
+    left:570px;
+    font-size: 28px;
+    font-family: cursive;
+    top:80px;
+}
+#button1{
+    position: absolute;
+    left:670px;
+    top:150px;
+}

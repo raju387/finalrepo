@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   
+   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <div class="col-md-6 offset-md-5">
+
+<div id="container">
+    <p id="loginpage">Already have an account.</p>
+    <button type="submit" class="btn btn-danger" id="button1" onclick="myfun()">LOGIN</button>
+       
+ </div>
+<div id="container1" class="container">
+    <h1 id="signup">SIGNUP FORM</h1>
+    <div id="error"></div>
+    <form method="post" id="signupform">
+    <label for="name">First Name:</label>
+    <input type="text" placeholder="Enter your First name" class="form-control" name="first_name" required id="first">
+    <label for="l_name">Last Name:</label>
+    <input type="text" placeholder="Enter your Last Name" class="form-control" name="last_name" required id="last">
+    <label for="email">Email:</label>
+    <input type="email" placeholder="Enter your Email" class="form-control" name="email" required id="email">
+        <label for="age">Age:</label>
+    <input type="number" placeholder="Enter your age" class="form-control" name="age" required id="age">
+        <label for="phone">Phone:</label>
+    <input type="number" placeholder="Enter your mobile number" class="form-control" name="mobile" required id="mobile">
+    <label for="password">Password:</label>
+    <input type="password" placeholder="Enter password" class="form-control" name="password" required id="pass">
+    <button type="submit" class="btn btn-danger" id="button" name="submit">SUBMIT</button>
+        </form>
+    </div>
+    </div>
+   <script type="text/javascript" src="ajax.js"></script>
+    <script>
+        function myfun(){
+            window.open("login1.html");
+        }
+    </script>
+    <script>
+       function preventBack(){
+           window.history.forward();
+       }
+        setTimeout("preventBack()",0);
+        window.onunload = function(){
+            null
+        };
+    
+    
+    </script>
+    
+    
+
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,48 @@
+
+   $background:beige;
+   $width1: 500px;
+   $height1: 400px;
+   $backgroundcolor: white;
+   $position1 : absolute; 
+   $left1 : 450px;
+   $top1 :  100px;
+   $textalign : center;
+   $textdecoration :  overline;
+   $top2: 330px;
+  $left2 : 100px;
+   $width : 100px;
+   $top3: 330px;
+   $left3 : 250px;
+   $width3 : 100px;
+   
+
+   
+
+           body{
+                background-color: $background;
+            }
+            #heading{
+              width: $width1;
+              height: $height1;
+               background-color: $backgroundcolor;
+                position: $position1 ;
+                left:$left1;
+                top:$top1;
+                box-shadow: 2px 2px green;
+            }
+            h1{
+                text-align: $textalign;
+                text-decoration: $textdecoration;
+            }
+            #b1{
+                position: $position1;
+                top:$top2;
+                left: $left2;
+                width:$width;
+            }
+            #b2{
+                position: $position1;
+                top: $top3;
+                left: $left3;
+                width: $width3;
+            }

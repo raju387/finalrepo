@@ -1,0 +1,67 @@
+$backgroud : cornflowerblue;
+$height1 : 400px;
+$width1: 950px;
+$background1 : skyblue;
+$position : absolute;
+$left1:280px;
+$top1:160px;
+$height2 : 500px;
+$width2: 450px;
+$background2 : white;
+$left2:340px;
+$top2:100px;
+$color:blue;
+$textalign : center;
+$textdecoration:overline;
+$left3:260px;
+$top3:400px;
+$width3:400px;
+$left4:570px;
+$top4:80px;
+$left5:670px;
+$top5:150px;
+
+
+html{
+    background-color: $backgroud;
+}
+#container{
+    height: $height1;
+    width:$width1;
+    background-color:$background1;
+    position: $position;
+    left: $left1;
+    top:$top;
+}
+#container1{
+    height: $height2;
+    width:$width2;
+    background-color:$background2;
+    position: $position;
+    left: $left2;
+    top: $top2;
+}
+#signup{
+    color:$color;
+    text-align:$textalign;
+    text-decoration:$textdecoration;
+    text-shadow: 2px 2px black;
+}
+#button{
+    position: $position;
+    top: $top3;
+    left:$left3;
+    width: $width3;
+}
+#loginpage{
+    position: $position;
+    left:$left4;
+    font-size: 28px;
+    font-family: cursive;
+    top:$top4;
+}
+#button1{
+    position: $position;
+    left:$left5;
+    top:$top5;
+}

@@ -1,0 +1,55 @@
+$background : beige;
+$height1 : 300px;
+$width1 : 500px;
+$textalign : center;
+$background1 : aquamarine;
+$position1 : absolute;
+$borderradius : 10px;
+$left2: 520px;
+$top2 : 100px;
+$top3:  200px;
+$left3 : 60px;
+$height4:50px;
+$width4:500px;
+$borderradius:10px;
+$textalign : center;
+$backgroundcolor :aqua;
+$top4 : 450px;
+$left4 : 520px;
+$fontsize4 : 20px;
+$fontfamily4 : cursive;
+    body{
+           background-color: $background;
+       }
+       #container1{
+           height: $height;
+           width: $width1;
+           text-align: $textalign;
+           background-color: $background1;
+           border-radius: $borderradius;
+           position: $position1;left: $left2;
+           top: $top2;
+       }
+       #signupform11{
+           text-decoration:overline;
+           color: green;
+           text-shadow: 2px 2px black;
+       }
+       #button{
+           position: $position1;
+           top: $top3;
+           left: 60px;
+           width: $left3;
+       }
+       p{
+           height: $height4;
+           width:$width4;
+           border-radius: $borderradius;
+           text-align: $textalign;
+           position: $position1;
+           background-color: aqua;
+           top: $top4;
+           left: $left4;
+           font-size: $fontsize4;
+           font-family: $fontfamily4;
+       }

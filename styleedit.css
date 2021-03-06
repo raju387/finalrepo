@@ -1,0 +1,28 @@
+           body{
+                background-color: beige;
+            }
+            #heading{
+              width: 500px;
+              height: 400px;
+               background-color: white;
+                position: absolute;
+                left:450px;
+                top:100px;
+                box-shadow: 2px 2px green;
+            }
+            h1{
+                text-align: center;
+                text-decoration: overline;
+            }
+            #b1{
+                position: absolute;
+                top: 330px;
+                left: 100px;
+                width:100px;
+            }
+            #b2{
+                position: absolute;
+                top: 330px;
+                left: 250px;
+                width: 100px;
+            }
